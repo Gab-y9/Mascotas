@@ -1,8 +1,14 @@
-        public void EdadHumana(int edad)
+using System.Numerics;
+
+namespace ActividadDos.Css
+{
+    internal class Program
+    {
+        public void EdadHumana(int total, int edad = 2)
         {
-            Console.WriteLine(" Su edad humana es de " + " años " );
+            Console.WriteLine(" Su edad humana es de " +  total );
+            total = edad * 7;
         }
-        Total=edad*7
             class program
         {
 
